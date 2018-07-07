@@ -36,10 +36,10 @@ image:wardley_img_9.jpg_large[]
 And this, is the most basic of all problems. Ditto duplication etc and we haven't even started down the route of strategy. It's why when people say to me they want to talk strategy, I ask for maps ... if they have none, I laugh and walk away. Waste of my time.
 
 ---
-> X : But how do you know which methods work where?
-> Me : Learning! You not only use maps to communicate and challenge but also to learn. 
+X : But how do you know which methods work where?::
+  Me : Learning! You not only use maps to communicate and challenge but also to learn. 
 
-For example ...
+For example:
 
 Let us take that systems diagram and suppose we have decided to outsource it all. let's have a look at the mapping version:
 image:wardley_img_10.jpg_large[]
@@ -58,15 +58,15 @@ image:wardley_img_14.jpg_large[]
 
 so please don't come to me with your agile everywhere, story telling, policy driven, use devops, spotify ourselves, magic pixie dust solutions to the world.  If you have no maps then you're not communicating, challenging, learning and you're nowhere when it comes to strategy.
 
-> X : But, you would say that, you're a consultant selling maps.
-> Me : 
-a) The entire process is creative commons - https://medium.com/wardleymaps  - which means learn yourself. Many do.
-2) The only people that can effectively map a space are those that live within it.  That means you.
+X : But, you would say that, you're a consultant selling maps.::
+  Me : 
+  . a) The entire process is creative commons - https://medium.com/wardleymaps  - which means learn yourself. Many do.
+  . 2) The only people that can effectively map a space are those that live within it.  That means you.
 
 so yes, I am literally the world's worst "selling maps" consultant because I tell everyone that they have to learn, they have to map and I refuse to map for them. I even made the entire method creative commons over  a decade ago.
 
-> X : What's wrong with income statements, they are a standard way of examining a company?
-> Me : Oh dear. Ok.
+X : What's wrong with income statements, they are a standard way of examining a company?::
+  Me : Oh dear. Ok.
 
 Let us take a Tea Shop: 
 -----------------------
@@ -90,8 +90,8 @@ Wait, they're not custom building kettles?
 
 Yep. You wouldn't believe the nonsense I see in some companies. But why didn't I see that in the income statement or comparison to other companies? Because you won't especially if everyone is custom building kettles. Income Statements lack context.
 
-> X : Oh, this can't be real?
-> Me : Oh, yes it is. I have some true industry wide horrors. I'll tweet about one later but for now I'll just let you ponder how useful Income Statements and KPIs really are. For me, they're up there with SWOTs in the category of the fairly useless.
+X : Oh, this can't be real?::
+  Me : Oh, yes it is. I have some true industry wide horrors. I'll tweet about one later but for now I'll just let you ponder how useful Income Statements and KPIs really are. For me, they're up there with SWOTs in the category of the fairly useless.
 
 It's only when you add context (e.g. by use of a map) do you discover the horrors of what we actually do in many corporations.
 
