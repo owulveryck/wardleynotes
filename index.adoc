@@ -83,7 +83,7 @@ We may as well add figures for the exchanges. I'll ignore the physical capital f
 image:wardley_img_18.jpg_large[]
 
 No? Ok, lets add the map version (i.e. not the value chain). Can you spot the problem now? 
-image:wardley_img_18.jpg_large[]
+image:wardley_img_19.jpg_large[]
 
 Wait, they're not custom building kettles? 
 
