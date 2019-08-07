@@ -1,8 +1,31 @@
+A story of maps...
+------------------
+Source: https://twitter.com/swardley/status/1014879503179550721?s=20
+
+X: Are your maps like customer journey maps?
+
+Me: No. My maps are designed to solve issues of 
+
+* communication
+* collaboration
+* sharing
+* learning
+* avoiding one size fits all
+* enabling re-use
+* focusing on user needs
+
+X: Can't you do that without maps?
+
+Me: Not a hope in hell.
+You can try, and people have endlessly tried to do these things for decades without maps. You can declare policy, a vision, a strategy on this stuff but without a basic means of communication (i.e. a map) then you'll have the same experience of getting nowhere fast.
+
 By way of example, let us take something super simple (and @GoAgileGov) can confirm this. Let us take a systems diagram for creating a railway in a virtual world 
+
+image:wardley_img_1.jpg_large[]
 
 Now to the questions:
 ---------------------
-image:wardley_img_1.jpg_large[]
+
 
 Do I outsource it all? 
 image:wardley_img_2.jpg_large[]
