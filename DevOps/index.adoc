@@ -1,5 +1,6 @@
 DevOps
-------------------
+------
+
 Source: https://twitter.com/swardley/status/1180087833408745472
 
 X : DevOps is all about the culture.
