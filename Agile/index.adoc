@@ -12,11 +12,11 @@ but methods have a context they apply to i.e. Agile (as in XP) is good becoming 
 
 image:2.jpg[]
 
-... so in social practice theory (assuming I'm getting this right, a big assumption) then you have two meanings (i.e. the THING being built and the PROJECT METHODOLOGY) ... but ...
+so in social practice theory (assuming I'm getting this right, a big assumption) then you have two meanings (i.e. the THING being built and the PROJECT METHODOLOGY) ... but ...
 
 image:3.jpg[]
 
-... the THING being built has three separate material instances and the project methodology represents three separate capabilities, each one linked to one material instance ...
+the THING being built has three separate material instances and the project methodology represents three separate capabilities, each one linked to one material instance ...
 
 image:4.jpg[]
 
@@ -33,13 +33,12 @@ However, there is a problem in that there are people trying to make "Agile" appl
 
 image:7.jpg[]
 
-... it's not possible to have a single method cover the entire scale of evolution because the characteristics of activities (i.e. the material) changes as it evolves.
+it's not possible to have a single method cover the entire scale of evolution because the characteristics of activities (i.e. the material) changes as it evolves.
 
 image:8.jpg[]
 
-... what instead happens is you end up with a monstrous method which fails and people blame others for using the wrong bit of the method. It's a path to cults, failure and process over people  in the name of "Agile" ... it's a farce.
+what instead happens is you end up with a monstrous method which fails and people blame others for using the wrong bit of the method. It's a path to cults, failure and process over people  in the name of "Agile" ... it's a farce.
 Generally when you have a manager going on about how we should Agile all the things ... my advice would be to sit them down in the corner of a room, with a child safe toy whilst the adults get on with real work.
-
 
 
 image:https://upload.wikimedia.org/wikipedia/en/a/ac/Pointy-haired_Boss.png[X,30]: There is no need to be rude.
