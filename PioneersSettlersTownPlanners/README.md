@@ -34,11 +34,9 @@ If you look at the doctrine table, you'll see one of those principles is "provid
 
 ### Discussion
 
-<img src="https://upload.wikimedia.org/wikipedia/en/a/ac/Pointy-haired_Boss.png " width="20" />
-How are you coming along with those terms?
+<img src="https://upload.wikimedia.org/wikipedia/en/a/ac/Pointy-haired_Boss.png " width="20" /> How are you coming along with those terms?
 
-<img src="https://pbs.twimg.com/profile_images/180727117/Simon_400x400.jpg" width="20" />
-I keep referring to Robert X. Cringley's Accidental Empires because PST was a derivative from this applied and fleshed out to a single company.
+<img src="https://pbs.twimg.com/profile_images/180727117/Simon_400x400.jpg" width="20" /> I keep referring to Robert X. Cringley's Accidental Empires because PST was a derivative from this applied and fleshed out to a single company.
 
 I avoided the Commando, Infantry and Police because of militaristic overtones but I see Pioneer, Settler and Town Planner is problematic in its own way. 
 
@@ -52,10 +50,8 @@ I could (and probably) should have left it at as "Think aptitude and attitude" a
 
 But then others seem to find it useful ... gosh, I'm always torn on this stuff. I probably should just add "handle with care" notices to parts of mapping.
 
-<img src="https://upload.wikimedia.org/wikipedia/en/a/ac/Pointy-haired_Boss.png " width="20" />
-Examples of companies succeeding with PST?
+<img src="https://upload.wikimedia.org/wikipedia/en/a/ac/Pointy-haired_Boss.png " width="20" /> Examples of companies succeeding with PST?
 
-<img src="https://pbs.twimg.com/profile_images/180727117/Simon_400x400.jpg" width="20" />
-Alas, it's not my place to say which companies. The one thing I would caution is that every company which has attempted it without sorting out their principles has failed. Leave the re-org until you've fixed your principles.
+<img src="https://pbs.twimg.com/profile_images/180727117/Simon_400x400.jpg" width="20" /> Alas, it's not my place to say which companies. The one thing I would caution is that every company which has attempted it without sorting out their principles has failed. Leave the re-org until you've fixed your principles.
 
 ![](7.png)
