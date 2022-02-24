@@ -1,18 +1,18 @@
-<img src="https://upload.wikimedia.org/wikipedia/en/a/ac/Pointy-haired_Boss.png " width="20" />: We need to adapt to our new reality.
+<img src="https://upload.wikimedia.org/wikipedia/en/a/ac/Pointy-haired_Boss.png? " width="20" />: We need to adapt to our new reality.
 
 <img src="https://pbs.twimg.com/profile_images/180727117/Simon_400x400.jpg" width="20" />: A question?
 
-<img src="https://upload.wikimedia.org/wikipedia/en/a/ac/Pointy-haired_Boss.png " width="20" />: Should we start with organisation or operating model first?
+<img src="https://upload.wikimedia.org/wikipedia/en/a/ac/Pointy-haired_Boss.png? " width="20" />: Should we start with organisation or operating model first?
 
 <img src="https://pbs.twimg.com/profile_images/180727117/Simon_400x400.jpg" width="20" />: Neither. Start with doctrine i.e. basic principles of your company. This will lead you to landcape which will lead you to structure + operating model.
 
 ![](1.png)
 
-<img src="https://upload.wikimedia.org/wikipedia/en/a/ac/Pointy-haired_Boss.png " width="20" />: Don't we need to get the structure right though?
+<img src="https://upload.wikimedia.org/wikipedia/en/a/ac/Pointy-haired_Boss.png? " width="20" />: Don't we need to get the structure right though?
 
 <img src="https://pbs.twimg.com/profile_images/180727117/Simon_400x400.jpg" width="20" />: Structure against what? If you don't understand the landscape that you operate in then how do you structure around it? How do you decide what your operating model is? Awareness comes first and that needs those principles.
 
-<img src="https://upload.wikimedia.org/wikipedia/en/a/ac/Pointy-haired_Boss.png " width="20" />: Explain?
+<img src="https://upload.wikimedia.org/wikipedia/en/a/ac/Pointy-haired_Boss.png? " width="20" />: Explain?
 
 <img src="https://pbs.twimg.com/profile_images/180727117/Simon_400x400.jpg" width="20" />: Pretend you're running a tea shop (I'm a Brit, I like tea shops). First thing you need to do is to know who your users are - the public, the business for example (there are more like regulators etc).
 
@@ -58,15 +58,15 @@ You have earned the right to talk about concepts like organisation, operating mo
 
 ![](11.png)
 
-<img src="https://upload.wikimedia.org/wikipedia/en/a/ac/Pointy-haired_Boss.png " width="20" />: What about phase II?
+<img src="https://upload.wikimedia.org/wikipedia/en/a/ac/Pointy-haired_Boss.png? " width="20" />: What about phase II?
 
 <img src="https://pbs.twimg.com/profile_images/180727117/Simon_400x400.jpg" width="20" />: Have you done phase I?
 
-<img src="https://upload.wikimedia.org/wikipedia/en/a/ac/Pointy-haired_Boss.png " width="20" />: Not quite.
+<img src="https://upload.wikimedia.org/wikipedia/en/a/ac/Pointy-haired_Boss.png? " width="20" />: Not quite.
 
 <img src="https://pbs.twimg.com/profile_images/180727117/Simon_400x400.jpg" width="20" />: Ok. Was the tea shop example useful.
 
-<img src="https://upload.wikimedia.org/wikipedia/en/a/ac/Pointy-haired_Boss.png " width="20" />: It's pretty good.
+<img src="https://upload.wikimedia.org/wikipedia/en/a/ac/Pointy-haired_Boss.png? " width="20" />: It's pretty good.
 
 <img src="https://pbs.twimg.com/profile_images/180727117/Simon_400x400.jpg" width="20" />: Ok. Well, in which case I better put some maps together to explain phase II. Note to self ... #to_be_continued #phases
 
