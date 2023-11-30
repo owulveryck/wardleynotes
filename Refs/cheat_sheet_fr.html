@@ -5,7 +5,6 @@
 		<title>Cheat Sheet FR</title>
 		<style>
 table {
-	font-family: Courrier;
 	width: 100%;
 	border-collapse: collapse;
 }
@@ -26,10 +25,29 @@ table {
 		background: #d7ecff;
 	}
 	tr.properties {
-		background: #f0f8ff;
+		background: #c8ffff33;
 	}
 	.tag {
 		background: #f0f0f0;
+	}
+	.stage1 {
+		background-color: rgba(255, 179, 186, 0.2); /* Rose pâle avec transparence */
+		font-family: Arial, sans-serif;
+	}
+
+	.stage2 {
+		background-color: rgba(255, 223, 186, 0.2); /* Orange pâle avec transparence */
+		font-family: Arial, sans-serif;
+	}
+
+	.stage3 {
+		background-color: rgba(186, 255, 201, 0.2); /* Vert pâle avec transparence */
+		font-family: Arial, sans-serif;
+	}
+
+	.stage4 {
+		background-color: rgba(186, 225, 255, 0.2); /* Bleu ciel pâle avec transparence */
+		font-family: Arial, sans-serif;
 	}
 		</style>
 	</head>
@@ -37,10 +55,10 @@ table {
 		<table>
 			<tr>
 				<th colspan="2">Étape de l'évolution</th>
-				<th>I</th>
-				<th>II</th>
-				<th>III</th>
-				<th>IV</th>
+				<th class="stage1">I</th>
+				<th class="stage2">II</th>
+				<th class="stage3">III</th>
+				<th class="stage4">IV</th>
 			</tr>
 			<tr class="tag">
 				<td class="tag" rowspan="4">Étiquettes de l'axe des x (types de capital)</td> <!-- This cell will span the first four rows -->
@@ -59,10 +77,10 @@ table {
 			</tr>
 			<tr class="tag">
 				<td class="tag practices">Pratique (implicite)</td>
-				<td class="tag stage1 practices">Nouveau</td>
-				<td class="tag stage2 practices">Émergent</td>
-				<td class="tag stage3 practices">Accepté</td>
-				<td class="tag stage4 practices">Meilleur</td>
+				<td class="tag stage1 practices">Nouvelle</td>
+				<td class="tag stage2 practices">Émergente</td>
+				<td class="tag stage3 practices">Acceptée</td>
+				<td class="tag stage4 practices">Meilleure</td>
 			</tr>
 			<tr class="tag">
 				<td class="tag knowledge">Connaissance (implicite)</td>
@@ -73,7 +91,7 @@ table {
 			</tr>
 			<!-- Additional rows will be added here -->
 			<tr class="characteristics">
-				<td rowspan="3">Une <b>caractéristique</b> d'une étape de l'évolution est un trait ou une <b>qualité définissante</b> qui peut être <b>observée</b> pendant <b>cette phase</b> particulière</td> <!-- This cell will span the first four rows -->
+				<td rowspan="3">Une <b>caractéristique</b> d'une étape de l'évolution est un trait ou une <b>qualité</b> qui peut être <b>observée</b> pendant <b>une phase</b> particulière</td> <!-- This cell will span the first four rows -->
 				<td><b>Omniprésence</b></td>
 				<td class="characteristics stage1"><b>Rare</b></td>
 				<td class="characteristics stage2"><b>Présence</b> en augmentation <b>lente</b></td>
