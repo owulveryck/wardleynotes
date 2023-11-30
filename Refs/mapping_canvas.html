@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>Table Layout</title>
+		<style>
+body {
+	font-family: Outfit, Arial, sans-serif;
+	margin: 0;
+	padding: 0;
+}
+  .grid-container {
+	  min-height: 95vh;
+	  display: grid;
+	  grid-template-columns: repeat(6, 1fr);
+	  grid-template-rows: 13% 13% 74%;
+
+	  grid-gap: 10px;
+	  padding: 10px;
+	  background-color: #f4f4f4;
+  }
+  .grid-mappingcanvas {
+	  display: flex;
+	  flex-direction: column;
+	  justify-content: space-between;
+	  background-color: #004688;
+	  color: white;
+	  padding: 10px;
+	  font-size: 16px;
+	  border-radius: 5px;
+  }
+  .mappingcanvas1 {
+	  background-color: #004688;
+	  grid-column: 1 / span 2;
+	  grid-row: 1;
+  }
+  .mappingcanvas2 {
+	  background-color: #59c3d5;
+	  grid-column: 1 / span 2;
+	  grid-row: 2;
+  }
+  .mappingcanvas3 {
+	  background-color: #004688;
+	  grid-column: 3 / span 2;
+	  grid-row: 1 / span 2;
+  }
+  .mappingcanvas4 {
+	  grid-column: 5 / span 2 ;
+	  grid-row: 1 / span 2;
+	  background-color: #59c3d5;
+  }
+  .mappingcanvas5 {
+	  background-color: #004688;
+	  grid-column: 1 / span 2;
+	  grid-row: 3;
+  }
+  .mappingcanvas6 {
+	  grid-column: 3 / span 4;
+	  grid-row: 3;
+	  background-color: #59c3d5;
+  }
+		</style>
+	</head>
+	<body>
+
+		<div class="grid-container">
+			<div class="grid-mappingcanvas mappingcanvas1"><b>1 - Purpose</b><br>What is your purpose? Why does this organization or project exist? </div>
+			<div class="grid-mappingcanvas mappingcanvas2"><b>2 - Scope</b><br>What is it that you are mapping? What does it include? What does it not include?</div>
+			<div class="grid-mappingcanvas mappingcanvas3"><b>3 - Users</b><br>Who uses or interacts with the thing you are mapping?</div>
+			<div class="grid-mappingcanvas mappingcanvas4"><b>4 - User Needs</b><br>Copy your users over. What do they need from you? What is each user's journey?</div>
+			<div class="grid-mappingcanvas mappingcanvas5"><b>5 - Value Chain</b><br>Copy the users over, with their needs underneath. What sorts of things are you need to be doing to fulfill those needs? Transaction and economic</div>
+			<div class="grid-mappingcanvas mappingcanvas6"><b>6 - Map</b>
+				<svg width="100%" height="100%" viewBox="0 0 1300 900" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" preserveAspectRatio="xMidYMid meet">
+					<defs>
+					<linearGradient id="wardleyGradient" x1="0%" y1="0%" x2="100%" y2="0%">
+					<stop offset="0%" stop-color="rgb(236,237,243)"></stop>
+					<stop offset="30%" stop-color="rgb(255,255,255)"></stop>
+					<stop offset="70%" stop-color="rgb(255,255,255)"></stop>
+					<stop offset="100%" stop-color="rgb(236,237,243)"></stop>
+					</linearGradient>
+					<marker id="arrow" refX="15" refY="0" markerWidth="12" markerHeight="12" viewBox="0 -5 10 10">
+					<path d="M0,-5L10,0L0,5" fill="rgb(255,0,0)"></path>
+					</marker>
+					<marker id="graphArrow" refX="9" refY="0" markerWidth="12" markerHeight="12" viewBox="0 -5 10 10">
+					<path d="M0,-5L10,0L0,5" fill="rgb(0,0,0)"></path>
+					</marker>
+					</defs>
+					<rect x="30" y="50" width="1240" height="800" style="fill:url(#wardleyGradient)"></rect>
+					<g transform=" translate(30,850) rotate(270)">
+					<line x1="0" y1="0" x2="800" y2="0" stroke-width="1" marker-end="url(#graphArrow)" stroke="rgb(19,36,84)" stroke-opacity="1.0"></line>
+					<line x1="0" y1="215" x2="800" y2="215" stroke-width="1" stroke-dasharray="2 2" stroke="rgb(19,36,84)" stroke-opacity="1.0"></line>
+					<line x1="0" y1="496" x2="800" y2="496" stroke-width="1" stroke-dasharray="2 2" stroke="rgb(19,36,84)" stroke-opacity="1.0"></line>
+					<line x1="0" y1="868" x2="800" y2="868" stroke-width="1" stroke-dasharray="2 2" stroke="rgb(19,36,84)" stroke-opacity="1.0"></line>
+					<text fill="rgb(19,36,84)" fill-opacity="1.0" font-family="Century Gothic,CenturyGothic,AppleGothic,sans-serif" text-anchor="start">
+					<tspan x="5" dy="-10">Invisible</tspan>
+					</text>
+					<text fill="rgb(19,36,84)" fill-opacity="1.0" font-family="Century Gothic,CenturyGothic,AppleGothic,sans-serif" text-anchor="end">
+					<tspan x="795" dy="-10">Visible</tspan>
+					</text>
+					<text fill="rgb(19,36,84)" fill-opacity="1.0" font-weight="bold" font-family="Century Gothic,CenturyGothic,AppleGothic,sans-serif" text-anchor="middle">
+					<tspan x="400" dy="-10">Value Chain</tspan>
+					</text>
+					</g>
+					<line x1="30" y1="850" x2="1270" y2="850" marker-end="url(#graphArrow)" stroke="rgb(19,36,84)" stroke-opacity="1.0"></line>
+					<text fill="rgb(19,36,84)" fill-opacity="1.0" font-weight="bold" font-family="Century Gothic,CenturyGothic,AppleGothic,sans-serif" font-size="18px" text-anchor="start">
+					<tspan x="37" dy="65">Uncharted</tspan>
+					</text>
+					<text fill="rgb(19,36,84)" fill-opacity="1.0" font-weight="bold" font-family="Century Gothic,CenturyGothic,AppleGothic,sans-serif" font-size="18px" text-anchor="end">
+					<tspan x="1265" dy="65">Industrialised</tspan>
+					</text>
+					<text fill="rgb(19,36,84)" fill-opacity="1.0" font-family="Century Gothic,CenturyGothic,AppleGothic,sans-serif">
+					<tspan x="30" dy="865">🧪 Genesis</tspan>
+					</text>
+					<text fill="rgb(19,36,84)" fill-opacity="1.0" font-family="Century Gothic,CenturyGothic,AppleGothic,sans-serif">
+					<tspan x="245" dy="865">⚒️  Custom-Built</tspan>
+					</text>
+					<text fill="rgb(19,36,84)" fill-opacity="1.0" font-family="Century Gothic,CenturyGothic,AppleGothic,sans-serif">
+					<tspan x="526" dy="865">🛒 Product
+					(+rental)</tspan>
+					</text>
+					<text fill="rgb(19,36,84)" fill-opacity="1.0" font-family="Century Gothic,CenturyGothic,AppleGothic,sans-serif">
+					<tspan x="898" dy="865">⛽ Commodity
+					(+utility)</tspan>
+					</text>
+					<text fill="rgb(19,36,84)" fill-opacity="1.0" font-weight="bold" font-family="Century Gothic,CenturyGothic,AppleGothic,sans-serif" text-anchor="end">
+					<tspan x="1270" dy="865">Evolution</tspan>
+					</text>
+					<g class="" transform=" translate(37,285)">
+					<text fill="rgb(19,36,84)" fill-opacity="0.9" font-weight="bold" font-family="Century Gothic,CenturyGothic,AppleGothic,sans-serif" font-size="18px" text-anchor="start">
+					<tspan x="0" dy="6">Market: Undefined</tspan>
+					</text>
+					</g>
+					<g class="" transform=" translate(263,285)">
+					<text fill="rgb(19,36,84)" fill-opacity="0.9" font-weight="bold" font-family="Century Gothic,CenturyGothic,AppleGothic,sans-serif" font-size="18px" text-anchor="start">
+					<tspan x="0" dy="6">Market: Forming</tspan>
+					</text>
+					</g>
+					<g class="" transform=" translate(543,285)">
+					<text fill="rgb(19,36,84)" fill-opacity="0.9" font-weight="bold" font-family="Century Gothic,CenturyGothic,AppleGothic,sans-serif" font-size="18px" text-anchor="start">
+					<tspan x="0" dy="6">Market: Growing</tspan>
+					</text>
+					</g>
+					<g class="" transform=" translate(915,285)">
+					<text fill="rgb(19,36,84)" fill-opacity="0.9" font-weight="bold" font-family="Century Gothic,CenturyGothic,AppleGothic,sans-serif" font-size="18px" text-anchor="start">
+					<tspan x="0" dy="6">Market: Mature</tspan>
+					</text>
+					</g>
+					<g class="" transform=" translate(37,385)">
+					<text fill="rgb(19,36,84)" fill-opacity="0.9" font-weight="bold" font-family="Century Gothic,CenturyGothic,AppleGothic,sans-serif" font-size="18px" text-anchor="start">
+					<tspan x="0" dy="0">Failure: High / tolerated</tspan>
+					<tspan x="0" dy="18">/ assumed</tspan>
+					</text>
+					</g>
+					<g class="" transform=" translate(263,385)">
+					<text fill="rgb(19,36,84)" fill-opacity="0.9" font-weight="bold" font-family="Century Gothic,CenturyGothic,AppleGothic,sans-serif" font-size="18px" text-anchor="start">
+					<tspan x="0" dy="0">Failure: Moderate / unsurprising</tspan>
+					<tspan x="0" dy="18">but disappointed</tspan>
+					</text>
+					</g>
+					<g class="" transform=" translate(543,385)">
+					<text fill="rgb(19,36,84)" fill-opacity="0.9" font-weight="bold" font-family="Century Gothic,CenturyGothic,AppleGothic,sans-serif" font-size="18px" text-anchor="start">
+					<tspan x="0" dy="0">Failure: Not tolerated, focus on constant</tspan>
+					<tspan x="0" dy="18">improvement</tspan>
+					</text>
+					</g>
+					<g class="" transform=" translate(915,385)">
+					<text fill="rgb(19,36,84)" fill-opacity="0.9" font-weight="bold" font-family="Century Gothic,CenturyGothic,AppleGothic,sans-serif" font-size="18px" text-anchor="start">
+					<tspan x="0" dy="0">Failure: Operational efficiency and</tspan>
+					<tspan x="0" dy="18">surprised by failure</tspan>
+					</text>
+					</g>
+					<g class="" transform=" translate(37,485)">
+					<text fill="rgb(19,36,84)" fill-opacity="0.9" font-weight="bold" font-family="Century Gothic,CenturyGothic,AppleGothic,sans-serif" font-size="18px" text-anchor="start">
+					<tspan x="0" dy="0">Focus of value: High</tspan>
+					<tspan x="0" dy="18">future worth</tspan>
+					</text>
+					</g>
+					<g class="" transform=" translate(263,485)">
+					<text fill="rgb(19,36,84)" fill-opacity="0.9" font-weight="bold" font-family="Century Gothic,CenturyGothic,AppleGothic,sans-serif" font-size="18px" text-anchor="start">
+					<tspan x="0" dy="0">Focus of value: Seeking profis</tspan>
+					<tspan x="0" dy="18">/ ROI?</tspan>
+					</text>
+					</g>
+					<g class="" transform=" translate(543,485)">
+					<text fill="rgb(19,36,84)" fill-opacity="0.9" font-weight="bold" font-family="Century Gothic,CenturyGothic,AppleGothic,sans-serif" font-size="18px" text-anchor="start">
+					<tspan x="0" dy="6">Focus of value: High profitability</tspan>
+					</text>
+					</g>
+					<g class="" transform=" translate(915,485)">
+					<text fill="rgb(19,36,84)" fill-opacity="0.9" font-weight="bold" font-family="Century Gothic,CenturyGothic,AppleGothic,sans-serif" font-size="18px" text-anchor="start">
+					<tspan x="0" dy="0">Focus of value: High volume / reducing</tspan>
+					<tspan x="0" dy="18">margin</tspan>
+					</text>
+					</g>
+					<g class="" transform=" translate(37,585)">
+					<text fill="rgb(19,36,84)" fill-opacity="0.9" font-weight="bold" font-family="Century Gothic,CenturyGothic,AppleGothic,sans-serif" font-size="18px" text-anchor="start">
+					<tspan x="0" dy="0">Comparison: Constantly</tspan>
+					<tspan x="0" dy="18">changing / a differential</tspan>
+					<tspan x="0" dy="18">/ unstable</tspan>
+					</text>
+					</g>
+					<g class="" transform=" translate(263,585)">
+					<text fill="rgb(19,36,84)" fill-opacity="0.9" font-weight="bold" font-family="Century Gothic,CenturyGothic,AppleGothic,sans-serif" font-size="18px" text-anchor="start">
+					<tspan x="0" dy="0">Comparison: Learning from</tspan>
+					<tspan x="0" dy="18">others / testing the water</tspan>
+					<tspan x="0" dy="18">/ some evidential support</tspan>
+					</text>
+					</g>
+					<g class="" transform=" translate(543,585)">
+					<text fill="rgb(19,36,84)" fill-opacity="0.9" font-weight="bold" font-family="Century Gothic,CenturyGothic,AppleGothic,sans-serif" font-size="18px" text-anchor="start">
+					<tspan x="0" dy="6">Comparison: Feature difference</tspan>
+					</text>
+					</g>
+					<g class="" transform=" translate(915,585)">
+					<text fill="rgb(19,36,84)" fill-opacity="0.9" font-weight="bold" font-family="Century Gothic,CenturyGothic,AppleGothic,sans-serif" font-size="18px" text-anchor="start">
+					<tspan x="0" dy="0">Comparison: Essential / operational</tspan>
+					<tspan x="0" dy="18">advantage</tspan>
+					</text>
+					</g>
+					<style><![CDATA[
+.evolutionEdge {
+	stroke-dasharray: 7;
+	stroke-dashoffset: 7;
+	animation: dash 3s linear forwards infinite;
+}
+
+
+.visibility0 {
+	opacity: 0.8;
+}
+
+
+
+.invisibility0 {
+	opacity: NaN;
+}
+
+
+	@keyframes dash {
+		from {
+			stroke-dashoffset: 100;
+		}
+		to {
+			stroke-dashoffset: 0;
+		}
+	}
+	.componentText {
+		background: transparent;
+		color: #fff;
+		resize: none;
+		border: 0 none;
+		width: 100%;
+		font-size: 0.8em;
+		outline: none;
+		height: 100%;
+		position: absolute;
+	}
+
+	]]></style>
+				</svg>
+
+
+			</div>
+		</div>
+	</body>
+</html>
