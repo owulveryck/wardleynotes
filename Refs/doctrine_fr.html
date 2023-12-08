@@ -41,25 +41,27 @@ table {
 			font-style: italic; /* Italicize the long explanation */
 			font-size: 1.2em; /* Increase the font size */
 		}
-		        .row1 {
-            background-color: #ffd180; /* Light orange */
-        }
+		.row1 {
+			background-color: #ffd180; /* Light orange */
+		}
 
-        .row2 {
-            background-color: #ffff80; /* Orange with a hint of green */
-        }
+		.row2 {
+			background-color: #ffff80; /* Orange with a hint of green */
+		}
 
-        .row3 {
-            background-color: #c5e1a5; /* Green with a hint of orange */
-        }
+		.row3 {
+			background-color: #c5e1a5; /* Green with a hint of orange */
+		}
 
-        .row4 {
-            background-color: #a5d6a7; /* Light green */
-        }
+		.row4 {
+			background-color: #a5d6a7; /* Light green */
+		}
 		</style>
 
 	</head>
 	<body>
+La Table de Doctrine de Simon Wardley est un cadre utilisé dans la stratégie d'entreprise et le développement organisationnel, qui se concentre sur la manière dont les organisations peuvent naviguer et s'adapter dans un paysage en constante évolution. 
+<br/>La doctrine est divisée en quatre phases
 		<table >
 			<tbody>
 				<tr class="row0">
@@ -72,18 +74,18 @@ table {
 					<th>Structure</th>
 				</tr>
 				<tr class="row4">
-					<th rowspan="2" scope="row">IV</th>
-					<td rowspan="2" colspan="3"></td>
-					<td rowspan="2" id="ecosystem">Écoutez votre écosystème</td>
-					<td id="landscape">Exploitez le paysage</td>
-					<td id="noOneCulture">Pas de culture unique</td>
+					<th rowspan="2" scope="row" id="phase4">Phase IV<br/>Évoluer en Continu/th>
+						<td rowspan="2" colspan="3"></td>
+						<td rowspan="2" id="ecosystem">Écoutez votre écosystème</td>
+						<td id="landscape">Exploitez le paysage</td>
+						<td id="noOneCulture">Pas de culture unique</td>
 				</tr>
 				<tr class="row4">
 					<td id="noCore">Il n'y a pas de noyau</td>
 					<td id="constantEvolution">Concevoir pour une évolution constante</td>
 				</tr>
 				<tr class="row3">
-					<th rowspan="5" scope="row">III</th>
+					<th rowspan="5" scope="row" id="phase3">Phase III<br/>Mieux pour Moins</th>
 					<td colspan="2" rowspan="5"></td>
 					<td id="optimiseFlow">Optimisez le flux</td>
 					<td rowspan="5" id="biasTowardsNew">Une préférence pour le nouveau</td>
@@ -106,7 +108,7 @@ table {
 					<td id="beHumble">Soyez humble</td>
 				</tr>
 				<tr class="row2">
-					<th rowspan="6" scope="row">II</th>
+					<th rowspan="6" scope="row" id="phase2">Phase II<br/>Devenir Plus Conscient du Contexte</th>
 					<td colspan="1" rowspan="5"></td>
 					<td id="focusOutcome">Concentrez-vous sur le résultat</td>
 					<td rowspan="2" id="manageInertia">Gérez l'inertie</td>
@@ -135,7 +137,7 @@ table {
 					<td id="standards">Utilisez des normes</td>
 				</tr>
 				<tr class="row1">
-					<th rowspan="4" scope="row">I</th>
+					<th rowspan="4" scope="row" id="phase1">Phase I<br/>Arrêter les Comportements Autodestructeurs</th>
 					<td id="commonLanguage">Langage commun</td>
 					<td id="knowYourUsers">Connaissez vos utilisateurs</td>
 					<td rowspan="4" id="thinkSmallDetails">Connaissez les détails</td>
@@ -461,9 +463,56 @@ table {
 						"Bien qu'une équipe puisse devenir une structure semi-permanente, le travail qu'elle entreprend évoluera. Il est donc de votre devoir de veiller à ce que le travail évolue à travers l'organisation, par exemple une équipe de pionniers découvre un espace non cartographié, une équipe de colons prend le travail et le produit, forçant ainsi les pionniers à avancer. Une équipe d'urbanistes industrialise ensuite le produit lorsque c'est approprié, forçant les colons à avancer.",
 						"Créez un système organisationnel qui gère le flux et le reflux constants dans le paysage. Idéalement, les changements devraient s'écouler à travers votre organisation sans nécessiter de restructuration constante. Une structure basée sur des cellules utilisant un système de vol avec des pionniers, des colons et des urbanistes est un tel système."
 					]
+				},
+				phase1: {
+					explanations: [
+						"Accent : Cette phase consiste à éliminer les comportements et pratiques qui nuisent à la capacité de l'organisation de s'adapter et d'évoluer.",
+						"Actions Clés :",
+						"Supprimer les silos et les barrières au sein de l'organisation.",
+						"Arrêter les pratiques menant à des inefficacités ou contre-productives.",
+						"Encourager la communication ouverte et la collaboration.",
+						"But : L'objectif est de créer une base solide en abordant et en rectifiant les problèmes internes qui entravent le progrès."
+					]
 				}
 			}
+/*
+				
+La Table de Doctrine de Simon Wardley est un cadre utilisé dans la stratégie d'entreprise et le développement organisationnel, qui se concentre sur la manière dont les organisations peuvent naviguer et s'adapter dans un paysage en constante évolution. La doctrine est divisée en quatre phases :
 
+1. Arrêter les Comportements Autodestructeurs
+Accent : Cette phase consiste à éliminer les comportements et pratiques qui nuisent à la capacité de l'organisation de s'adapter et d'évoluer.
+Actions Clés :
+Supprimer les silos et les barrières au sein de l'organisation.
+Arrêter les pratiques menant à des inefficacités ou contre-productives.
+Encourager la communication ouverte et la collaboration.
+But : L'objectif est de créer une base solide en abordant et en rectifiant les problèmes internes qui entravent le progrès.
+2. Devenir Plus Conscient du Contexte
+Accent : Dans cette phase, l'accent est mis sur la compréhension de l'environnement dans lequel l'organisation opère.
+Actions Clés :
+Réaliser une recherche approfondie sur le marché.
+Comprendre les besoins et les attentes des clients.
+Reconnaître le paysage concurrentiel et les tendances technologiques.
+But : En acquérant une compréhension claire des facteurs externes affectant l'organisation, les stratégies peuvent être mieux adaptées pour relever ces défis.
+3. Mieux pour Moins
+Accent : Cette phase se concentre sur l'amélioration de l'efficacité et de l'efficience.
+Actions Clés :
+Rationaliser les processus.
+Adopter les principes Lean.
+Utiliser la technologie et l'innovation pour accomplir plus avec moins de ressources.
+But : L'objectif est d'optimiser les opérations pour fournir une valeur plus élevée à un coût inférieur, améliorant ainsi la performance globale.
+4. Évoluer en Continu
+Accent : La dernière phase est de favoriser un environnement d'amélioration et d'adaptation continues.
+Actions Clés :
+Encourager l'innovation et l'expérimentation.
+Réviser et mettre à jour régulièrement les stratégies.
+S'adapter rapidement aux changements du marché et de la technologie.
+But : Pour garantir la durabilité et le succès à long terme, l'organisation doit être agile et flexible, prête à évoluer selon les besoins.
+Chaque phase se construit sur la précédente, créant une approche complète du développement organisationnel et de la planification stratégique. Cette doctrine est particulièrement utile dans l'environnement commercial d'aujourd'hui, rapide et axé sur la technologie, où l'adaptabilité et l'agilité sont cruciales pour le succès.
+
+
+
+
+*/
 
 			function displayExplanations() {
 				// Get all TD elements
