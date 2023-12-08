@@ -1,17 +1,69 @@
 <html>
-	<head></head>
+	<head>
+		<title>Tableau d'évaluation Doctrine en Français</title>
+		<style>
+/* Styling for the table */
+table {
+	border-collapse: collapse;
+	margin: 0 auto; /* Center the table */
+}
+
+		td {
+			border: 1px solid lightgray; /* Light border for table cells */
+			padding: 8px 16px; /* Padding for table cells */
+			text-align: center; /* Center text in table cells */
+		}
+		td:hover {
+			background-color: lightblue; /* Change as per your preference */
+		}
+
+		/* Styling for the explanation div */
+		#explanation {
+			margin-top: 20px;
+			text-align: center; /* Center the content */
+		}
+		#explanation {
+			max-width: 80%; /* Maximum width of 80% of the screen width */
+			margin: 20px auto; /* Centers the div and adds spacing above and below */
+			text-align: center;
+		}
+
+		#explanation span {
+			display: block; /* Each span on a new line */
+			margin: 5px 0; /* Spacing between spans */
+		}
+
+		#short {
+			font-weight: bold; /* Bold text for short explanation */
+		}
+
+		#long {
+			font-style: italic; /* Italicize the long explanation */
+			font-size: 1.2em; /* Increase the font size */
+		}
+		        .row1 {
+            background-color: #ffd180; /* Light orange */
+        }
+
+        .row2 {
+            background-color: #ffff80; /* Orange with a hint of green */
+        }
+
+        .row3 {
+            background-color: #c5e1a5; /* Green with a hint of orange */
+        }
+
+        .row4 {
+            background-color: #a5d6a7; /* Light green */
+        }
+		</style>
+
+	</head>
 	<body>
 		<table >
-			<thead>
-				<tr>
-					<th style="font-size: small;">Category</th>
-					<th colspan="6">Wardley's Doctrine (universally useful patterns that a user can apply)</th>
-				</tr>
-			</thead>
 			<tbody>
-				<tr>
-					<th>
-					</th>
+				<tr class="row0">
+					<th> </th>
 					<th>Communication</th>
 					<th>Développement</th>
 					<th>Opération</th>
@@ -19,18 +71,18 @@
 					<th>Direction</th>
 					<th>Structure</th>
 				</tr>
-				<tr>
+				<tr class="row4">
 					<th rowspan="2" scope="row">IV</th>
 					<td rowspan="2" colspan="3"></td>
 					<td rowspan="2" id="ecosystem">Écoutez votre écosystème</td>
 					<td id="landscape">Exploitez le paysage</td>
 					<td id="noOneCulture">Pas de culture unique</td>
 				</tr>
-				<tr>
+				<tr class="row4">
 					<td id="noCore">Il n'y a pas de noyau</td>
 					<td id="constantEvolution">Concevoir pour une évolution constante</td>
 				</tr>
-				<tr>
+				<tr class="row3">
 					<th rowspan="5" scope="row">III</th>
 					<td colspan="2" rowspan="5"></td>
 					<td id="optimiseFlow">Optimisez le flux</td>
@@ -38,22 +90,22 @@
 					<td id="direction">Engagez-vous dans la direction</td>
 					<td rowspan="2" id="purpose">Fournir un but, la maîtrise et l'autonomie</td>
 				</tr>
-				<tr>
+				<tr class="row3">
 					<td rowspan="2" id="betterWithLess">Faire mieux avec moins</td>
 					<td id="beOwner">Soyez le propriétaire</td>
 				</tr>
-				<tr>
+				<tr class="row3">
 					<td id="thinkBig">Inspirez les autres</td>
 					<td rowspan="3" id="seekTheBest">Recherchez le meilleur</td>
 				</tr>
-				<tr>
+				<tr class="row3">
 					<td rowspan="2" id="exceptionalStandards">Établissez des normes exceptionnelles</td>
 					<td id="complexStrategy">Acceptez l'incertitude</td>
 				</tr>
-				<tr>
+				<tr class="row3">
 					<td id="beHumble">Soyez humble</td>
 				</tr>
-				<tr>
+				<tr class="row2">
 					<th rowspan="6" scope="row">II</th>
 					<td colspan="1" rowspan="5"></td>
 					<td id="focusOutcome">Concentrez-vous sur le résultat</td>
@@ -62,27 +114,27 @@
 					<td rowspan="2" id="moveFast">Bougez rapidement</td>
 					<td rowspan="2" id="thinkSmallTeam">Pensez petites équipes</td>
 				</tr>
-				<tr>
+				<tr class="row2">
 					<td id="thinkFast">Pensez vite, économique, sobre et élégant</td>
 				</tr>
-				<tr>
+				<tr class="row2">
 					<td rowspan="1" id="appropriateTools">Utilisez les outils appropriés</td>
 					<td rowspan="2" id="failure">Gérez l'échec</td>
 					<td rowspan="4" id="iterativeStrategy">La stratégie est itérative</td>
 					<td id="distributePower">Distribuez le pouvoir et la prise de décision</td>
 				</tr>
-				<tr>
+				<tr class="row2">
 					<td rowspan="2" id="bePragmatic">Soyez pragmatique</td>
 					<td rowspan="3" id="thinkAptitudeAndAttitude">Pensez aptitude et attitude</td>
 				</tr>
-				<tr>
+				<tr class="row2">
 					<td rowspan="2" id="effectivenessOverEfficiency">L'efficacité avant l'efficience</td>
 				</tr>
-				<tr>
+				<tr class="row2">
 					<td id="beTransparent">Une préférence pour l'ouverture</td>
 					<td id="standards">Utilisez des normes</td>
 				</tr>
-				<tr>
+				<tr class="row1">
 					<th rowspan="4" scope="row">I</th>
 					<td id="commonLanguage">Langage commun</td>
 					<td id="knowYourUsers">Connaissez vos utilisateurs</td>
@@ -90,19 +142,23 @@
 					<td rowspan="4" id="systematicLearning">Préférence pour les données</td>
 					<td colspan="2" rowspan="4"></td>
 				</tr>
-				<tr>
+				<tr class="row1">
 					<td id="challenge">Remettez en question les hypothèses</td>
 					<td id="focusOnUserNeeds">Concentrez-vous sur les besoins des utilisateurs</td>
 				</tr>
-				<tr>
+				<tr class="row1">
 					<td rowspan="2" id="highSituationalAwareness">Comprenez ce qui est envisagé</td>
 					<td id="removeBiasAndDuplication">Éliminez les biais et les doublons</td>
 				</tr>
-				<tr>
+				<tr class="row1">
 					<td id="methods">Utilisez des méthodes appropriées</td>
 				</tr>
 			</tbody>
 		</table>
+		<div id="explanation">
+			<span id="short"></span>
+			<span id="long"></span>
+		</div>
 
 		<script>
 			const content = {
@@ -407,5 +463,34 @@
 					]
 				}
 			}
+
+
+			function displayExplanations() {
+				// Get all TD elements
+				const cells = document.querySelectorAll('td');
+
+				// Get elements to display explanations
+				const shortSpan = document.getElementById('short');
+				const longSpan = document.getElementById('long');
+
+				// Add mouseover event listener to each cell
+				cells.forEach(cell => {
+					cell.addEventListener('mouseover', function() {
+						const key = this.id; // Get the id of the hovered cell
+						if (content[key]) {
+							// Display short and long explanations
+							shortSpan.textContent = content[key].shortText || '';
+							longSpan.innerHTML = content[key].explanations.join('<br>') || '';
+
+						} else {
+							shortSpan.textContent = '';
+							longSpan.textContent = 'No explanations found for ' + key;
+						}
+					});
+				});
+			}
+
+			// Call the function to attach event listeners
+			displayExplanations();
 		</script>
 	</body></html>
