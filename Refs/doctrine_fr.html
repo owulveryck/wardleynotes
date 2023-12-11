@@ -23,7 +23,6 @@ table {
 			text-align: left; /* Center the content */
 		}
 		#explanation {
-			max-width: 80%; /* Maximum width of 80% of the screen width */
 			margin: 20px auto; /* Centers the div and adds spacing above and below */
 			text-align: left;
 		}
@@ -79,6 +78,69 @@ table {
 		<input type="file" id="uploadBtn" style="display: none;" />
 		<label for="uploadBtn" class="button"><i class="fas fa-upload"></i>Restore</label>
 		<!--
+		<div id="globalExplanation">
+		La Table de Doctrine de Simon Wardley est un cadre utilisé dans la stratégie d'entreprise et le développement organisationnel, qui se concentre sur la manière dont les organisations peuvent naviguer et s'adapter dans un paysage en constante évolution. 
+		<br/>La doctrine est divisée en quatre phases
+
+		<h3>1. Élimination des Pratiques Contreproductives</h3>
+		<p>
+		<b>Focus</b> : Cette étape vise à éliminer les comportements et habitudes qui limitent la capacité de l'organisation à s'adapter et à évoluer.
+		</p>
+		<p>
+		<b>Actions Principales</b> :
+		Suppression des silos organisationnels et des obstacles internes.
+		Abandon des pratiques inefficaces ou contre-productives.
+		Promotion de la communication transparente et de la collaboration.
+		</p>
+		<p>
+		<b>Objectif</b> : Créer une fondation robuste en traitant et en corrigeant les problèmes internes qui freinent le progrès.
+		</p>
+
+		<h3>2. Alignement avec le Contexte de l'Environnement</h3>
+		<p>
+		<b>Focus</b> : Cette étape met l'accent sur la compréhension du contexte dans lequel l'organisation opère.
+		</p>
+		<p>
+		<b>Actions Principales</b> :
+		Réalisation d'études de marché détaillées.
+		Compréhension des besoins et attentes des clients.
+		Reconnaissance du paysage concurrentiel et des tendances technologiques.
+		</p>
+		<p>
+		<b>Objectif</b> : Acquérir une compréhension précise des facteurs externes influençant l'organisation pour mieux adapter les stratégies aux défis rencontrés.
+		</p>
+
+		<h3>3. Optimisation des Ressources pour une Efficacité Accrue</h3>
+
+		<p>
+		<b>Focus</b> : Cette étape se concentre sur l'amélioration de l'efficacité et de la productivité.
+		</p>
+		<p>
+		<b>Actions Principales</b> :
+		Rationalisation des processus.
+		Adoption de principes Lean.
+		Utilisation de la technologie et de l'innovation pour réaliser plus avec moins de ressources.
+		</p>
+		<p>
+		<b>Objectif</b> : Optimiser les opérations pour offrir une plus grande valeur à un coût réduit, améliorant ainsi la performance globale.
+		</p>
+
+		<h3>4. Adaptabilité et Évolution Continues</h3>
+		<p>
+		<b>Focus</b> : La dernière étape consiste à encourager une culture d'amélioration et d'adaptation continue.
+		</p>
+		<p>
+		<b>Actions Principales</b> :
+		Stimuler l'innovation et l'expérimentation.
+		Révision et mise à jour régulières des stratégies.
+		Adaptation rapide aux changements du marché et technologiques.
+		</p>
+		<p>
+		<b>Objectif</b> : Assurer la durabilité et le succès à long terme en restant agile et flexible, prêt à évoluer selon les besoins.
+		Chaque étape s'appuie sur la précédente, formant une approche intégrée du développement organisationnel et de la planification stratégique. Cette méthode est particulièrement pertinente dans l'environnement commercial actuel, rapide et axé sur la technologie, où l'adaptabilité et l'agilité sont essentielles au succès.
+		</p>
+		</div>
+
 		-->
 		<table >
 			<tbody>
@@ -92,7 +154,7 @@ table {
 					<th>Structure</th>
 				</tr>
 				<tr class="row4">
-					<th rowspan="2" scope="row" id="phase4">Phase IV<br/>Évoluer en Continu</th>
+					<th rowspan="2" scope="row" id="phase4">Phase IV<br/>Adaptabilité et Évolution Continues</th>
 					<td rowspan="2" colspan="3"></td>
 					<td rowspan="2" id="ecosystem">Écoutez votre écosystème</td>
 					<td id="landscape">Exploitez le paysage</td>
@@ -103,7 +165,7 @@ table {
 					<td id="constantEvolution">Concevoir pour une évolution constante</td>
 				</tr>
 				<tr class="row3">
-					<th rowspan="5" scope="row" id="phase3">Phase III<br/>Mieux pour Moins</th>
+					<th rowspan="5" scope="row" id="phase3">Phase III<br/>Optimisation des Ressources pour une Efficacité Accrue</th>
 					<td colspan="2" rowspan="5"></td>
 					<td id="optimiseFlow">Optimisez le flux</td>
 					<td rowspan="5" id="biasTowardsNew">Une préférence pour le nouveau</td>
@@ -155,7 +217,7 @@ table {
 					<td id="standards">Utilisez des normes</td>
 				</tr>
 				<tr class="row1">
-					<th rowspan="4" scope="row" id="phase1">Phase I<br/>Arrêter les Comportements Autodestructeurs</th>
+					<th rowspan="4" scope="row" id="phase1">Phase I<br/>Éliminer les pratiques contreproductives</th>
 					<td id="commonLanguage">Langage commun</td>
 					<td id="knowYourUsers">Connaissez vos utilisateurs</td>
 					<td rowspan="4" id="thinkSmallDetails">Connaissez les détails</td>
@@ -178,10 +240,10 @@ table {
 		<div id="explanation">
 			<span id="short"></span>
 			<span id="question"></span>
+			<hr>
 			<span id="long"></span>
 		</div>
-				La Table de Doctrine de Simon Wardley est un cadre utilisé dans la stratégie d'entreprise et le développement organisationnel, qui se concentre sur la manière dont les organisations peuvent naviguer et s'adapter dans un paysage en constante évolution. 
-		<br/>La doctrine est divisée en quatre phases
+
 		<hr>
 		This is based on https://doctrine.wardleymaps.com/ by Krzysztof Danie and Simon Wardley's work<br/>
 		Importantly, it’s free! Wardley Mapping is licensed Creative Commons Attribution-ShareAlike 4.0 and provided to the world by Simon Wardley in his free book, for anyone to learn. So is this work!
